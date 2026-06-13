@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+    int school[3][2] = { 1 , 4 , 6 , 76, 8, 5} ;
+     for ( int i = 0 ; i <3 ; i++ ) {
+        for ( int j = 0 ; j < 2 ; j ++ ) {
+            cout << school[i][j] << " " ;
+        }
+        cout << endl ;
+     }
+}
